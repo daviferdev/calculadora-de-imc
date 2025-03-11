@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora de IMC</title>
+  </head>
+  <body>
+    <h1>Calculadora de IMC</h1>
+    <div class="container">
+      <div class="tabela">
+        <div class="tabela-cabecalho">
+          <h2>IMC</h2>
+          <h2>Classificação</h2>
+        </div>
+
+        <div class="classificacao">
+          <ul class="list-left">
+            <li>
+              <strong>Menor que 18,5</strong>
+            </li>
+            <li>
+              <strong>18,5 a 24,9</strong>
+            </li>
+            <li>
+              <strong>25 a 29,9</strong>
+            </li>
+            <li>
+              <strong>30 a 34,9</strong>
+            </li>
+            <li>
+              <strong>35 a 39,9</strong>
+            </li>
+            <li>
+              <strong>Maior que 40</strong>
+            </li>
+          </ul>
+          <ul class="list-right">
+            <li>
+              <span>Magreza</span>
+            </li>
+            <li>
+              <span>Normal</span>
+            </li>
+            <li>
+              <span>Sobrepeso</span>
+            </li>
+            <li>
+              <span>Obesidade grau I</span>
+            </li>
+            <li>
+              <span>Obesidade Grau II</span>
+            </li>
+            <li>
+              <span>Obesidade Grau III</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="calculadora">
+        <form class="form">
+          <label>
+            <span>Idade:</span>
+            <input type="text" name="idade" placeholder="Ex: 30" />
+         
+          </label>
+          <label>
+            <span>Altura em cm:</span>
+            <input type="text" name="altura" placeholder="Ex: 165" />
+           
+          </label>
+          <label>
+            <span>Peso:</span>
+            <input type="text" name="peso" placeholder="Ex: 90.5" />
+          
+          </label>
+          <button type="submit">Calcular</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="resultado">Seu resultado aqui...</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
